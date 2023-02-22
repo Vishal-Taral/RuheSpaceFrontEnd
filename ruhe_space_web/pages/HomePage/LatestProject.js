@@ -22,55 +22,59 @@ const LatestProject = () => {
             </div>
 
             <div className={`${styles.cards} mt-3`}>
-                <Card border="dark" className='p-3' style={{ width: '16rem', height: '25rem' }}>
+                <Card border="dark" style={{ width: '16rem', height: '25rem', backgroundColor: "black" }}>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
+                        {/* <Card.Title>Card Title</Card.Title>
                         <Card.Subtitle className="mb-2">Card Subtitle</Card.Subtitle>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
                         <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="#">Another Link</Card.Link> */}
                     </Card.Body>
                 </Card>
 
-                <Card border="dark" className='p-3' style={{ width: '16rem', height: '25rem' }}>
+                <Card border="dark" style={{ width: '16rem', height: '25rem', backgroundColor: "black" }}>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
+                        {/* <Card.Title>Card Title</Card.Title>
                         <Card.Subtitle className="mb-2">Card Subtitle</Card.Subtitle>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
                         <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="#">Another Link</Card.Link> */}
                     </Card.Body>
                 </Card>
 
-                <Card border="dark" className='p-3' style={{ width: '16rem', height: '25rem' }}>
+                <Card border="dark" style={{ width: '16rem', height: '25rem', backgroundColor: "black" }}>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
+                        {/* <Card.Title>Card Title</Card.Title>
                         <Card.Subtitle className="mb-2">Card Subtitle</Card.Subtitle>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
                         <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="#">Another Link</Card.Link> */}
                     </Card.Body>
                 </Card>
 
-                <Card border="dark" className='p-3' style={{ width: '16rem', height: '25rem' }}>
+                <Card border="dark" style={{ width: '16rem', height: '25rem', backgroundColor: "black" }}>
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
+                        {/* <Card.Title>Card Title</Card.Title>
                         <Card.Subtitle className="mb-2">Card Subtitle</Card.Subtitle>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                         </Card.Text>
                         <Card.Link href="#">Card Link</Card.Link>
-                        <Card.Link href="#">Another Link</Card.Link>
+                        <Card.Link href="#">Another Link</Card.Link> */}
                     </Card.Body>
                 </Card>
             </div>

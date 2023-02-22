@@ -5,14 +5,15 @@ const OurClient = () => {
     return (
         <div className={`${styles.our_client} container`}>
             <div className={`${styles.outer_div}`}>
-                <div className={`${styles.one}`}>
-                    <h3>OUR CLIENTS</h3>
+                <div className={`${styles.one} mt-5`}>
+                    <h2>OUR CLIENTS</h2>
+                    <h2>______</h2>
                 </div>
                 <div className={`${styles.two}`}>
-                    <img src="" alt="client" />
-                    <img src="" alt="client" />
-                    <img src="" alt="client" />
-                    <img src="" alt="client" />
+                    <img src="https://media.istockphoto.com/id/1281009425/vector/three-elements-triangle-symbol-abstract-business-logotype.jpg?s=612x612&w=0&k=20&c=CyXS_u8bP7T4V-fh_bmj0pm360JU3LrC9CG3mdpq87M=" alt="client" height={100} width={100} />
+                    <img src="https://media.istockphoto.com/id/1286680331/vector/adoption-and-community-care.jpg?s=612x612&w=0&k=20&c=ohbgHT14BhVVbVOc__N5MsBEfoM3EXwzLPxzIFeWHTI=" alt="client" height={100} width={100} />
+                    <img src="https://media.istockphoto.com/id/1140553971/vector/abstract-business-arrow-up-logo-icon-vector-design-template.jpg?s=612x612&w=0&k=20&c=N6bFWaKfmFokGSfTNJhEbYDnF1RplWomcNrOKI65cWU=" alt="client" height={100} width={100} />
+                    <img src="https://media.istockphoto.com/id/1278575403/vector/home-creative-symbol-concept-open-door-building-enter-real-estate-agency-abstract-business.jpg?s=612x612&w=0&k=20&c=T_vmoRdQycjPeyxIaW1pidNstT4ZJ2mIysNR_jp57l0=" alt="client" height={100} width={100} />
                 </div>
             </div>
         </div>
