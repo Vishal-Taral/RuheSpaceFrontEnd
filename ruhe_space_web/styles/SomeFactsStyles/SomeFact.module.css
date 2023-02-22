@@ -5,12 +5,13 @@
   background-attachment: fixed;
   height: 500px;
   background-size: cover;
-  padding: 5rem;
+  padding-top: 4rem;
   background-repeat: no-repeat;
 }
 .some_facts .outer {
   display: flex;
   position: absolute;
+  padding: 2rem 3rem;
 }
 .some_facts .outer .outer_left {
   width: 70%;

@@ -25,9 +25,6 @@ const SomeFacts = () => {
                             <h1>300</h1>
                             <h5>Happy Client</h5>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>

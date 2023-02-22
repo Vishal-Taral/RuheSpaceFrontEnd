@@ -24,8 +24,8 @@
 }
 .our_experts .second {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 4rem;
+  padding: 7% 4rem;
 }/*# sourceMappingURL=OurExperts.module.css.map */

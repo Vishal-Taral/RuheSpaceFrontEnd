@@ -17,15 +17,6 @@
 .Welcome .main1 .containt .paragraph {
   font-weight: 200;
 }
-.Welcome .main1 .containt .readMorebtn {
-  background-color: black;
-  color: white;
-  padding: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-top: 5%;
-  font-weight: 100;
-}
 .Welcome .main1 .mainHomeImage {
   display: flex;
   width: 50%;
@@ -84,15 +75,6 @@
   }
   .Welcome .main1 .containt .paragraph {
     font-weight: 200;
-  }
-  .Welcome .main1 .containt .readMorebtn {
-    background-color: black;
-    color: white;
-    padding: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 10%;
-    font-weight: 100;
   }
   .Welcome .main1 .mainHomeImage {
     display: flex;

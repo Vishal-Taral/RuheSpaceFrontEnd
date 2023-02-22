@@ -1,0 +1,7 @@
+.SomeInfo .outer {
+  display: flex;
+}
+.SomeInfo .outer .param {
+  width: 50%;
+  padding-left: 7%;
+}/*# sourceMappingURL=SomeInfo.module.css.map */

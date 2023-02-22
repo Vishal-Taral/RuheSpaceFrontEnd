@@ -28,23 +28,23 @@ const OurExperts = () => {
             </div>
 
             <div className={`${styles.second}`}>
-                <Card className='text-center' style={{ width: '15rem', height: '20rem' }}>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
+                <Card className='text-center' style={{ width: '15rem', height: '17rem' }}>
+                    <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
                     <Card.Body>
                         <Card.Title>Vishal Taral</Card.Title>
                         <Card.Text>UI designer</Card.Text>
                     </Card.Body>
                 </Card>
 
-                <Card className='text-center' style={{ width: '15rem', height: '20rem' }}>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
+                <Card className='text-center' style={{ width: '15rem', height: '17rem' }}>
+                    <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
                     <Card.Body>
                         <Card.Title>rohan odel</Card.Title>
                         <Card.Text>UI designer</Card.Text>
                     </Card.Body>
                 </Card>
 
-                <Card className='text-center' style={{ width: '15rem', height: '20rem' }}>
+                <Card className='text-center' style={{ width: '15rem', height: '17rem' }}>
                     <Card.Img variant="top" src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
                     <Card.Body>
                         <Card.Title>rushikesh </Card.Title>
@@ -52,8 +52,8 @@ const OurExperts = () => {
                     </Card.Body>
                 </Card>
 
-                <Card className='text-center' style={{ width: '15rem', height: '20rem' }}>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
+                <Card className='text-center' style={{ width: '15rem', height: '17rem' }}>
+                    <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
                     <Card.Body>
                         <Card.Title>atharva</Card.Title>
                         <Card.Text>UI designer</Card.Text>

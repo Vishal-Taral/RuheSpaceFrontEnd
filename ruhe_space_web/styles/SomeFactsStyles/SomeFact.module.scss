@@ -5,12 +5,13 @@
     background-attachment: fixed;
     height: 500px;
     background-size: cover;
-    padding: 5rem;
+    padding-top: 4rem;
     background-repeat: no-repeat;
 
     .outer {
         display: flex;
         position: absolute;
+        padding: 2rem 3rem;
 
         .outer_left {
             width: 70%;

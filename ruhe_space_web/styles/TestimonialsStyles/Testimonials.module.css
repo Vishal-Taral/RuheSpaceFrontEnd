@@ -9,14 +9,23 @@
 }
 .Testimonials .outer_div .inner_div {
   width: 50%;
-  height: 100vh;
+  height: 81vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.Testimonials .outer_div .inner_div .small_div {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border: 2px solid black;
+}
 .Testimonials .outer_div .inner_div .info {
   padding: 1rem;
-  width: 80%;
+  width: 95%;
+  margin: 1rem 0;
   box-shadow: 3px 7px 10px 0px rgba(0, 0, 0, 0.75);
 }
 .Testimonials .mainInfo {
