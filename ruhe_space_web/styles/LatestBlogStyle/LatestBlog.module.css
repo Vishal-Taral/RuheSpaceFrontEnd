@@ -1,0 +1,56 @@
+.latest_blog {
+  padding: 7rem 0;
+}
+.latest_blog .main1 {
+  display: flex;
+  width: 100%;
+}
+.latest_blog .main1 .outer_left {
+  width: 50%;
+}
+.latest_blog .main1 .outer_left .one {
+  content: "";
+  width: 97%;
+  height: 15rem;
+  position: relative;
+  background-color: aqua;
+}
+.latest_blog .main1 .outer_left .one .two {
+  content: "";
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 43%;
+  left: -4%;
+}
+.latest_blog .main1 .outer_right .inner_one {
+  content: "";
+  width: 550px;
+  height: 500px;
+  background-color: aqua;
+  position: relative;
+}
+.latest_blog .main1 .outer_right .inner_one .inner_two {
+  content: "";
+  position: absolute;
+  border: 15px solid black;
+  width: 400px;
+  height: 400px;
+  left: 35%;
+  top: 10%;
+  padding: 1rem 2rem 4rem 1rem;
+  color: white;
+}
+.latest_blog .main1 .outer_right .mainInfo {
+  border-right: 10px solid black;
+}
+.latest_blog .main1 .outer_right .mainInfo .inner_div_Of_MainInfo {
+  margin-right: 2rem;
+  text-align: right;
+}
+.latest_blog .main1 .outer_right .mainInfo .inner_div_Of_MainInfo .fent_heading {
+  font-size: 80px;
+  color: aqua;
+}/*# sourceMappingURL=LatestBlog.module.css.map */

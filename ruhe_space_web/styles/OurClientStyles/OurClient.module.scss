@@ -1,0 +1,26 @@
+.our_client {
+    .outer_div {
+        display: flex;
+        width: 100%;
+        padding: 2rem 4rem;
+        background-color: black;
+
+        .one {
+            width: 30%;
+            color: white;
+            font-weight: 900;
+
+        }
+
+        .two {
+            position: relative;
+            width: 60%;
+            background-color: white;
+            left: 8%;
+            padding: 2rem;
+            display: flex;
+            justify-content: space-around;
+
+        }
+    }
+}

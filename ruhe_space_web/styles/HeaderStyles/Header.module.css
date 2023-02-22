@@ -1,0 +1,9 @@
+.Header {
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Header .Navlinks {
+  color: black;
+  font-size: 13px;
+}/*# sourceMappingURL=Header.module.css.map */

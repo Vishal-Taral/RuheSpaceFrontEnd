@@ -1,0 +1,32 @@
+.Testimonials {
+  width: 100%;
+}
+.Testimonials .outer_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Testimonials .outer_div .inner_div {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Testimonials .outer_div .inner_div .info {
+  padding: 1rem;
+  width: 80%;
+  box-shadow: 3px 7px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.Testimonials .mainInfo {
+  border-right: 10px solid black;
+}
+.Testimonials .mainInfo .inner_div_Of_MainInfo {
+  margin-right: 2rem;
+  text-align: right;
+}
+.Testimonials .mainInfo .inner_div_Of_MainInfo .fent_heading {
+  font-size: 80px;
+  color: aqua;
+}/*# sourceMappingURL=Testimonials.module.css.map */

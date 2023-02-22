@@ -1,0 +1,26 @@
+.main1 {
+    .latestProject {
+        display: flex;
+        justify-content: space-between;
+        // padding: 1rem 3rem;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainInfo {
+        border-right: 10px solid black;
+
+        .inner_div_Of_MainInfo {
+            margin-right: 2rem;
+            text-align: right;
+
+            .fent_heading {
+                font-size: 80px;
+                color: aqua;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.main1 .latestProject {
+  display: flex;
+  justify-content: space-between;
+}
+.main1 .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.main1 .mainInfo {
+  border-right: 10px solid black;
+}
+.main1 .mainInfo .inner_div_Of_MainInfo {
+  margin-right: 2rem;
+  text-align: right;
+}
+.main1 .mainInfo .inner_div_Of_MainInfo .fent_heading {
+  font-size: 80px;
+  color: aqua;
+}/*# sourceMappingURL=LatestProject.module.css.map */

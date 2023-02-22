@@ -1,0 +1,169 @@
+.Welcome {
+    background-color: rgb(237, 241, 241);
+    padding: 1rem 3rem;
+
+    .main1 {
+        display: flex;
+
+        .containt {
+            width: 40%;
+
+            .heading {
+                font-weight: 100;
+            }
+
+            .quotes {
+                font-weight: 900;
+            }
+
+            .paragraph {
+                font-weight: 200;
+
+            }
+
+            .readMorebtn {
+                background-color: black;
+                color: white;
+                padding: 2%;
+                padding-left: 5%;
+                padding-right: 5%;
+                margin-top: 5%;
+                font-weight: 100;
+                // font-size: 12px;
+            }
+        }
+
+        .mainHomeImage {
+            display: flex;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10rem;
+
+            .HomeImage1 {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                z-index: 1;
+
+                // margin-left: 20px;
+                // margin-left: 50%;
+
+                .actualImage {
+                    position: relative;
+                    width: 100%;
+                    height: 50%;
+                    // left: 20%;
+                }
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    height: 78%;
+                    width: 100%;
+                    bottom: 8%;
+                    z-index: -1;
+                    border: 20px solid rgb(123, 205, 205);
+                    left: -15%;
+                }
+            }
+        }
+    }
+
+    .mainInfo {
+        border-right: 10px solid black;
+
+        .inner_div_Of_MainInfo {
+            margin-right: 2rem;
+            text-align: right;
+
+            .fent_heading {
+                font-size: 80px;
+                color: aqua;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .HomeImage1 {
+        // margin: 2%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Welcome {
+        .main1 {
+            display: flex;
+            background-color: rgb(237, 241, 241);
+            // padding: 3rem;
+            flex-direction: column;
+
+            .containt {
+                width: 100%;
+
+                .heading {
+                    font-weight: 100;
+                }
+
+                .quotes {
+                    font-weight: 900;
+                }
+
+                .paragraph {
+                    font-weight: 200;
+
+                }
+
+                .readMorebtn {
+                    background-color: black;
+                    color: white;
+                    padding: 2%;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    margin-top: 10%;
+                    font-weight: 100;
+
+                }
+            }
+
+            .mainHomeImage {
+                display: flex;
+                width: 100%;
+                // justify-content: center;
+                // align-items: center;
+
+                .HomeImage1 {
+                    width: 70%;
+                    height: auto;
+                    margin-top: 4%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .actualImage {
+                        position: relative;
+                        width: 90%;
+                        height: 70%;
+                        left: 10%;
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        height: 80%;
+                        width: 90%;
+                        bottom: -5%;
+                        left: 2%;
+                        z-index: -1;
+                        border: 20px solid rgb(123, 205, 205);
+                    }
+                }
+            }
+        }
+    }
+
+}
