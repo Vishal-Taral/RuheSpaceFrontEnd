@@ -2,6 +2,11 @@
   display: flex;
   justify-content: space-between;
 }
+.main1 .latestProject .links {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
 .main1 .cards {
   display: flex;
   justify-content: space-between;

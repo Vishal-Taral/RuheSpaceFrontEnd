@@ -1,0 +1,15 @@
+.footer {
+  padding: 5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .middleText {
+  position: relative;
+  left: 10%;
+}
+.footer .footer_liks {
+  font-size: 15px;
+}
+.footer .footer_liks .links {
+  text-decoration: none;
+}/*# sourceMappingURL=Footer.module.css.map */

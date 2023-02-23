@@ -1,0 +1,18 @@
+.footer {
+    padding: 5rem 0rem;
+    display: flex;
+    justify-content: space-between;
+
+    .middleText {
+        position: relative;
+        left: 10%;
+    }
+
+    .footer_liks {
+        font-size: 15px;
+
+        .links {
+            text-decoration: none;
+        }
+    }
+}

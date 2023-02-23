@@ -12,12 +12,14 @@ const LatestProject = () => {
                 </div>
 
                 <div style={{ fontSize: "20px" }}>
-                    <Breadcrumb>
-                        <Breadcrumb.Item href="#">All Project</Breadcrumb.Item>
-                        <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">building</Breadcrumb.Item>
-                        <Breadcrumb.Item href="#">Interior</Breadcrumb.Item>
-                        <Breadcrumb.Item href="#">Restaurant</Breadcrumb.Item>
-                    </Breadcrumb>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>All Project</a></li>
+                            <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>building</a></li>
+                            <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>Interior</a></li>
+                            <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>Restaurant</a></li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
 

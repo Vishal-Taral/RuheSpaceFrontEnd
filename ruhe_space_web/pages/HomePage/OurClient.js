@@ -3,7 +3,7 @@ import styles from '../../styles/OurClientStyles/OurClient.module.scss';
 
 const OurClient = () => {
     return (
-        <div className={`${styles.our_client} container`}>
+        <div className={`${styles.our_client}`}>
             <div className={`${styles.outer_div}`}>
                 <div className={`${styles.one} mt-5`}>
                     <h2>OUR CLIENTS</h2>

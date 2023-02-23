@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles//SomeInfoStyles_inHowItWorks/SomeInfo.module.scss';
+import styles from '../../styles/HowItWorksStyles/SomeInfoStyles/SomeInfo.module.scss';
 
 const SomeInfo = () => {
     return (

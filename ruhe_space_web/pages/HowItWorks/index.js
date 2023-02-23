@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap'
 import bannerImage from '../../public/Images/Banner.png';
 import Image from 'next/image';
 import SomeInfo from './SomeInfo';
+import SimplerImages from './SimplerImages';
 
 
 const HowItWorks = () => {
@@ -14,6 +15,7 @@ const HowItWorks = () => {
             <div className='mt-5'>
                 <Image src={bannerImage} alt="bannerImage" width="100%" height={370} />
             </div>
+            <SimplerImages />
             <SomeInfo />
         </div>
     )

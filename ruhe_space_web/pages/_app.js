@@ -5,7 +5,9 @@ import Layout from '@/Components/Common/Layout';
 export default function App({ Component, pageProps }) {
   return (
     <Layout>
-      <Component {...pageProps} />
+      <div style={{ marginTop: "90px" }}>
+        <Component {...pageProps} />
+      </div>
     </Layout>
   )
 }

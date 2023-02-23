@@ -2,6 +2,7 @@
   padding: 1rem 3rem;
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 .Header .Navlinks {
   color: black;
