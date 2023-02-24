@@ -13,6 +13,31 @@
             width: 100%;
         }
 
+        .icon {
+            color: white;
+            display: flex;
+            justify-content: center;
+
+            .outer_of_icon {
+                width: 35px;
+                height: 35px;
+                border: 1px solid white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0.2rem;
+
+                .brand_icon {
+                    width: 20px;
+                    height: 20px;
+                    color: white;
+
+                }
+            }
+
+        }
+
+
         .mainInfo {
             border-right: 10px solid black;
 

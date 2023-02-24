@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from '../../styles/LatestBlogStyle/LatestBlog.module.scss';
+import styles from "../../styles/LatestBlogStyle/LatestBlog.module.scss";
 
 const LatestBlog = () => {
     return (
-        <div className={`${styles.latest_blog} container`}>
-            <h1>BLOG POST</h1>
+        <div className={`${styles.latest_blog}`}>
+            <h1>LATEST BLOG</h1>
             <div className={`${styles.main1} mt-3`}>
                 <div className={`${styles.outer_left}`}>
                     <div >
@@ -45,22 +45,4 @@ const LatestBlog = () => {
     )
 }
 
-export default LatestBlog
-
-{/* <div className={`${styles.outer_left}`} >
-                <div >
-                    <div className={`${styles.one}`}>
-                        <div className={`${styles.two} text-center`}>
-                            <h5>TITEL OF FIST BLOG POST </h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={`${styles.outer_left} mt-4`} >
-                    <div className={`${styles.one}`}>
-                        <div className={`${styles.two} text-center`}>
-                            <h5>TITEL OF FIST BLOG POST </h5>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
+export default LatestBlog;

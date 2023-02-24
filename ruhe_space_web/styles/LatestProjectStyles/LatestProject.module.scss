@@ -14,6 +14,16 @@
     .cards {
         display: flex;
         justify-content: space-between;
+
+        .actual_card {
+            width: 16rem;
+            height: 25rem;
+            background-color: black;
+        }
+
+        .actual_card:hover {
+            background-color: white;
+        }
     }
 
     .mainInfo {

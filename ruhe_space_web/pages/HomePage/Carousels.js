@@ -16,8 +16,8 @@ const Carousels = () => {
                         height={500}
                     />
                     <Carousel.Caption style={{ position: "absolute", bottom: "10rem", color: "black" }}>
-                        <h1>First slide label</h1>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h1 style={{ fontSize: "70px", textShadow: "2px 2px white" }}>MODERN</h1>
+                        <p style={{ textShadow: "1px 1px white" }}>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,9 +28,9 @@ const Carousels = () => {
                         height={500}
                     />
 
-                    <Carousel.Caption className='mb-5' style={{ position: "absolute", bottom: "10rem", color: "black" }}>
-                        <h1>Second slide label</h1>
-                        <p>
+                    <Carousel.Caption style={{ position: "absolute", bottom: "10rem", color: "black" }}>
+                        <h1 style={{ fontSize: "70px", textShadow: "2px 2px white" }}>PERFECT</h1>
+                        <p style={{ textShadow: "1px 1px white" }}>
                             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                         </p>
                     </Carousel.Caption>

@@ -17,10 +17,10 @@ const Footer = () => {
             <div>
                 <div className={`${styles.footer_liks}`}>
                     <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#" className={`${styles.links}`}>Terms & Conditions</a></li>
-                            <li class="breadcrumb-item"><a href="#" className={`${styles.links}`}>Privacy Policy</a></li>
-                            <li class="breadcrumb-item"><a href="#" className={`${styles.links}`}>Contact Us </a></li>
+                        <ol className="breadcrumb">
+                            <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>Terms & Conditions</a></li>
+                            <li className="breadcrumb-item"><a href="https://getbootstrap.com/docs/5.2/components/breadcrumb/" className={`${styles.links}`}>Privacy Policy</a></li>
+                            <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>Contact Us </a></li>
                         </ol>
                     </nav>
                 </div>

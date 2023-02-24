@@ -11,6 +11,25 @@
   height: 50%;
   width: 100%;
 }
+.our_experts .expert_team .icon {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.our_experts .expert_team .icon .outer_of_icon {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+}
+.our_experts .expert_team .icon .outer_of_icon .brand_icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
 .our_experts .expert_team .mainInfo {
   border-right: 10px solid black;
 }

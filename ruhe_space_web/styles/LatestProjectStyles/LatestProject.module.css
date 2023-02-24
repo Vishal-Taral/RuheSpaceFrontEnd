@@ -11,6 +11,14 @@
   display: flex;
   justify-content: space-between;
 }
+.main1 .cards .actual_card {
+  width: 16rem;
+  height: 25rem;
+  background-color: black;
+}
+.main1 .cards .actual_card:hover {
+  background-color: white;
+}
 .main1 .mainInfo {
   border-right: 10px solid black;
 }

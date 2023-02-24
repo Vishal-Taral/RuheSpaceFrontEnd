@@ -1,6 +1,13 @@
 import React from 'react'
 import styles from '../../styles/OurExpertsStyles/OurExperts.module.scss';
 import Card from 'react-bootstrap/Card';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faRss } from '@fortawesome/free-solid-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const OurExperts = () => {
     return (
@@ -14,8 +21,13 @@ const OurExperts = () => {
                 <div className='text-center mt-3'>
                     <h2>ROBERT WILLSON</h2>
                     <h3>Co-manager associated</h3>
-                    <div className='icon'>
-                        icons
+                    <div className={styles.icon}>
+                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faFacebookF} /></div>
+                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faTwitter} /></div>
+                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faLinkedinIn} /></div>
+                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faRss} /></div>
+                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faYoutube} /></div>
+                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faInstagram} /></div>
                     </div>
                 </div>
 

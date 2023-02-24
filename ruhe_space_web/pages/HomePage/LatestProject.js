@@ -11,11 +11,11 @@ const LatestProject = () => {
                     <h1>Latest Project</h1>
                 </div>
 
-                <div style={{ fontSize: "20px" }}>
+                <div className={`mt-2`} style={{ fontSize: "20px" }}>
                     <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
+                        <ol className="breadcrumb">
                             <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>All Project</a></li>
-                            <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>building</a></li>
+                            <li className="breadcrumb-item"><a href="https://react-bootstrap.netlify.app/components/breadcrumb/" className={`${styles.links}`}>building</a></li>
                             <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>Interior</a></li>
                             <li className="breadcrumb-item"><a href="#" className={`${styles.links}`}>Restaurant</a></li>
                         </ol>
@@ -24,7 +24,7 @@ const LatestProject = () => {
             </div>
 
             <div className={`${styles.cards} mt-3`}>
-                <Card border="dark" style={{ width: '16rem', height: '25rem', backgroundColor: "black" }}>
+                <Card className={`${styles.actual_card}`} border="dark" >
                     <Card.Body>
                         <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
                         {/* <Card.Title>Card Title</Card.Title>
@@ -38,7 +38,7 @@ const LatestProject = () => {
                     </Card.Body>
                 </Card>
 
-                <Card border="dark" style={{ width: '16rem', height: '25rem', backgroundColor: "black" }}>
+                <Card border="dark" className={`${styles.actual_card}`}>
                     <Card.Body>
                         <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
                         {/* <Card.Title>Card Title</Card.Title>
@@ -52,7 +52,7 @@ const LatestProject = () => {
                     </Card.Body>
                 </Card>
 
-                <Card border="dark" style={{ width: '16rem', height: '25rem', backgroundColor: "black" }}>
+                <Card border="dark" className={`${styles.actual_card}`}>
                     <Card.Body>
                         <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
                         {/* <Card.Title>Card Title</Card.Title>
@@ -66,7 +66,7 @@ const LatestProject = () => {
                     </Card.Body>
                 </Card>
 
-                <Card border="dark" style={{ width: '16rem', height: '25rem', backgroundColor: "black" }}>
+                <Card border="dark" className={`${styles.actual_card}`}>
                     <Card.Body>
                         <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
                         {/* <Card.Title>Card Title</Card.Title>
