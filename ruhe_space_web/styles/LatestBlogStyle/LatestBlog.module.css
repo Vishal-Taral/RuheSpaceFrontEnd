@@ -1,10 +1,14 @@
 .latest_blog {
-  padding: 7% 7%;
-  background-color: rgb(238, 246, 246);
+  padding: 7% 0 0 5%;
   background-image: radial-gradient(rgb(171, 210, 210) 10%, transparent 15%);
   background-size: 10px 10px;
   background-position: 0 0, 30px 30px;
   background-repeat: repeat;
+}
+.latest_blog .line {
+  height: 3px;
+  width: 50px;
+  background-color: black;
 }
 .latest_blog .main1 {
   display: flex;

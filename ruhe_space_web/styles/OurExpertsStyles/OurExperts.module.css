@@ -1,6 +1,7 @@
 .our_experts {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(239, 247, 247);
 }
 .our_experts .expert_team {
   background-color: black;

@@ -5,16 +5,46 @@
   background-color: black;
 }
 .our_client .outer_div .one {
-  width: 30%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.our_client .outer_div .one .text_containt {
   color: white;
   font-weight: 900;
+}
+.our_client .outer_div .one .text_containt .line {
+  height: 3px;
+  width: 50px;
+  background-color: white;
+}
+.our_client .outer_div .one .left_right_icon {
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+}
+.our_client .outer_div .one .left_right_icon .icons {
+  width: 35px;
+  height: 33px;
+  display: flex;
+  justify-content: flex-end;
+}
+.our_client .outer_div .one .left_right_icon .icons .less_than_icon {
+  width: 7px;
+  height: 7px;
+  color: white;
+}
+.our_client .outer_div .one .left_right_icon .icons .greater_than_icon {
+  width: 7px;
+  height: 7px;
+  color: white;
 }
 .our_client .outer_div .two {
   position: relative;
   width: 60%;
   background-color: white;
-  left: 8%;
-  padding: 2rem;
+  left: 1%;
+  padding: 0.7rem;
   display: flex;
   justify-content: space-around;
 }/*# sourceMappingURL=OurClient.module.css.map */

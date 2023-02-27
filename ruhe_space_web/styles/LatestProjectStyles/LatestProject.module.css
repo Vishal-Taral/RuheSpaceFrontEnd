@@ -1,6 +1,12 @@
 .main1 .latestProject {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.main1 .latestProject .line {
+  height: 3px;
+  width: 50px;
+  background-color: black;
 }
 .main1 .latestProject .links {
   text-decoration: none;
@@ -18,6 +24,28 @@
 }
 .main1 .cards .actual_card:hover {
   background-color: white;
+}
+.main1 .left_right_icon {
+  width: 8%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main1 .left_right_icon .icons {
+  width: 35px;
+  height: 33px;
+  background-color: rgb(131, 90, 90);
+  display: flex;
+  justify-content: center;
+}
+.main1 .left_right_icon .icons .less_than_icon {
+  width: 7px;
+  height: 7px;
+  color: white;
+}
+.main1 .left_right_icon .icons .greater_than_icon {
+  width: 7px;
+  height: 7px;
+  color: white;
 }
 .main1 .mainInfo {
   border-right: 10px solid black;

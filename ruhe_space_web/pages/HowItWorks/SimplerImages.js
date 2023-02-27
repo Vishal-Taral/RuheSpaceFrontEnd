@@ -7,11 +7,11 @@ const SimplerImages = () => {
     return (
         <div>
             <div>
-                <Image src={Img01} alt="bannerImage" width="100%" height={500} />
+                <Image src={Img01} alt="bannerImage" width="100%" height={500} priority />
             </div>
 
             <div style={{ marginLeft: "15%" }}>
-                <Image src={Img02} alt="bannerImage" width="100%" height={500} />
+                <Image src={Img02} alt="bannerImage" width="100%" height={500} priority />
             </div>
         </div>
     )

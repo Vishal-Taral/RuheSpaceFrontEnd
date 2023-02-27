@@ -1,6 +1,12 @@
 .Testimonials {
     width: 100%;
 
+    .line {
+        height: 3px;
+        width: 50px;
+        background-color: black;
+    }
+
     .outer_div {
         width: 100%;
         display: flex;
@@ -9,7 +15,7 @@
 
         .inner_div {
             width: 50%;
-            height: 81vh;
+            // height: 81vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -20,16 +26,18 @@
                 width: 100px;
                 height: 100px;
                 background-color: aquamarine;
-                border: 2px solid black;
+
+
             }
+
 
             .info {
                 padding: 1rem;
                 width: 95%;
                 margin: 1rem 0;
-                -webkit-box-shadow: 3px 7px 10px 0px rgba(0, 0, 0, 0.75);
-                -moz-box-shadow: 3px 7px 10px 0px rgba(0, 0, 0, 0.75);
-                box-shadow: 3px 7px 10px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+                box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
 
             }
         }

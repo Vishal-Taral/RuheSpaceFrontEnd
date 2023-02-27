@@ -5,7 +5,9 @@ const LatestBlog = () => {
     return (
         <div className={`${styles.latest_blog}`}>
             <h1>LATEST BLOG</h1>
-            <div className={`${styles.main1} mt-3`}>
+
+            <div className={`${styles.line} mt-4`}></div>
+            <div className={`${styles.main1} mt-4`}>
                 <div className={`${styles.outer_left}`}>
                     <div >
                         <div className={`${styles.one}`}>
@@ -15,7 +17,7 @@ const LatestBlog = () => {
                         </div>
                     </div>
 
-                    <div >
+                    <div>
                         <div className={`${styles.one} mt-4`}>
                             <div className={`${styles.two} text-center`}>
                                 <h5>TITEL OF FIST BLOG POST </h5>
@@ -33,7 +35,7 @@ const LatestBlog = () => {
                         </div>
                     </div>
 
-                    <div className={`${styles.mainInfo} mt-3`}>
+                    <div className={`${styles.mainInfo} mt-5`}>
                         <div className={`${styles.inner_div_Of_MainInfo}`} >
                             <h1 className={`${styles.fent_heading}`} >BLOG</h1>
                             <h5>POST</h5>

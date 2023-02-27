@@ -5,11 +5,15 @@ const Testimonials = () => {
     return (
         <div className={`${styles.Testimonials} container mt-5 mb-3`}>
             <h1>Testimonials</h1>
-            <h1>____</h1>
+            <div className={`${styles.line} mt-4 mb-4`}>
+
+            </div>
             <div className={`${styles.outer_div}`}>
                 <div className={`${styles.inner_div}`}>
                     <div>
-                        <div className={`${styles.small_div}`}></div>
+                        <div className={`${styles.box}`}>
+                            <div className={`${styles.small_div}`}></div>
+                        </div>
                         <div className={`${styles.info}`}>
                             <h5 className={styles.person}><b>Taylor Robert</b></h5>
                             <label htmlFor="post" className={styles.post}>BackEnd Developer </label>

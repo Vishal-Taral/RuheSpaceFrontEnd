@@ -1,5 +1,9 @@
 .Welcome {
-    background-color: rgb(237, 241, 241);
+    // background-color: rgb(238, 246, 246);
+    background-image: radial-gradient(rgb(171, 210, 210) 10%, transparent 15%);
+    background-size: 10px 10px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
     padding: 5rem 3rem 2rem 3rem;
 
     .main1 {

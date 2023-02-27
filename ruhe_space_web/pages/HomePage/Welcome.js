@@ -13,9 +13,8 @@ const WelCome = () => {
                     <div className={`${styles.containt}`}>
                         <h3 className={styles.heading} >WELCOME</h3>
                         <h2 className={`${styles.quotes} mt-2`}> WE ARE CREATIVE BUILDING - DESIGN COMPANY</h2>
-                        <p className={`${styles.paragraph} mt-3`}>DUMMY TEXT IS ALSO USED TO DEMONSTRATE THE APPEARANCE OF DIFFERENT TYPEFACES AND LAYOUTS, AND IN GENERAL
-
-                            typefaces and layouts, and in appearance of different general the content of dummy text is nonsensical.typefaces and layouts, different general the content of dummy text is nonsensical.</p>
+                        <p className={`${styles.paragraph} mt-3`}>DUMMY TEXT IS ALSO USED TO DEMONSTRATE THE APPEARANCE OF DIFFERENT TYPEFACES AND LAYOUTS, AND IN GENERAL </p>
+                        <p className={`${styles.paragraph}`}>typefaces and layouts, and in appearance of different general the content of dummy text is nonsensical.typefaces and layouts, different general the content of dummy text is nonsensical.</p>
                         <button className={styles.readMorebtn}>READ MORE &emsp;&emsp;- </button>
                     </div>
                     <div className={styles.mainHomeImage}>

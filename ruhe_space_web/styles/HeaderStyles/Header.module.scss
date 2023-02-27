@@ -1,13 +1,52 @@
 .Header {
-    padding: 1rem 3rem;
+    padding: 1.5rem 5rem;
     display: flex;
     justify-content: space-between;
     background-color: white;
+    align-items: center;
 
-    .Navlinks {
-        color: black;
-        font-size: 13px;
+    .links {
+        // width: 70%;
+        // margin-left: 2%;
+
+        .Navlinks {
+            color: black;
+            font-size: 12px;
+            font-family: sans-serif;
+            letter-spacing: 2px;
+            padding: 0rem 0.5rem;
+            font-weight: 450;
+        }
     }
 
 
+
 }
+
+// .header {
+//     background-color: white;
+//     padding: 1rem 2rem;
+
+//     .NavbarItemList {
+//         display: flex;
+//         justify-content: flex-end;
+
+
+//         .navlist {
+//             cursor: pointer;
+//             color: black;
+//         }
+//     }
+// }
+
+
+// @media only screen and (max-width: 1000px) {
+//     .header {
+//         .NavbarItemList {
+//             display: flex;
+//             justify-content: left;
+//             flex-direction: column;
+//         }
+//     }
+
+// }
