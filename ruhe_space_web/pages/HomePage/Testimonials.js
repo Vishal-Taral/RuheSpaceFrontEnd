@@ -3,7 +3,7 @@ import styles from '../../styles/TestimonialsStyles/Testimonials.module.scss';
 
 const Testimonials = () => {
     return (
-        <div className={`${styles.Testimonials} container mt-5 mb-3`}>
+        <div className={`${styles.Testimonials} mb-3`}>
             <h1>Testimonials</h1>
             <div className={`${styles.line} mt-4 mb-4`}>
 

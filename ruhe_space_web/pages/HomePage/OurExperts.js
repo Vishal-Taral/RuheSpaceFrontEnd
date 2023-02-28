@@ -2,14 +2,33 @@ import React from 'react'
 import styles from '../../styles/OurExpertsStyles/OurExperts.module.scss';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faLinkedinIn, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faRss } from '@fortawesome/free-solid-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const OurExperts = () => {
+    const brands_icon = [faFacebookF, faTwitter, faLinkedinIn, faYoutube, faInstagram, faRss];
+    const expert_details = [
+        {
+            image_url: 'https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=',
+            person_name: 'vishal taral',
+            position: 'UI-designer',
+        },
+        {
+            image_url: 'https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=',
+            person_name: 'rohan odel',
+            position: 'UI-designer',
+        },
+        {
+            image_url: 'https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=',
+            person_name: 'rushikesh',
+            position: 'UI-designer',
+        },
+        {
+            image_url: 'https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=',
+            person_name: 'athrva',
+            position: 'UI-designer',
+        },
+    ]
     return (
         <div className={`${styles.our_experts}`} >
             <div className={`${styles.expert_team} col-6`} >
@@ -21,13 +40,11 @@ const OurExperts = () => {
                 <div className='text-center mt-3'>
                     <h2>ROBERT WILLSON</h2>
                     <h3>Co-manager associated</h3>
-                    <div className={styles.icon}>
-                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faFacebookF} /></div>
-                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faTwitter} /></div>
-                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faLinkedinIn} /></div>
-                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faRss} /></div>
-                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faYoutube} /></div>
-                        <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={faInstagram} /></div>
+                    <div className={styles.icon}>{brands_icon.map((icons) => {
+                        return (
+                            <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={icons} /></div>
+                        )
+                    })}
                     </div>
                 </div>
 
@@ -39,38 +56,17 @@ const OurExperts = () => {
                 </div>
             </div>
 
-            <div className={`${styles.second}`}>
-                <Card className='text-center' style={{ width: '15rem', height: '17rem' }}>
-                    <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
-                    <Card.Body>
-                        <Card.Title>Vishal Taral</Card.Title>
-                        <Card.Text>UI designer</Card.Text>
-                    </Card.Body>
-                </Card>
-
-                <Card className='text-center' style={{ width: '15rem', height: '17rem' }}>
-                    <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
-                    <Card.Body>
-                        <Card.Title>rohan odel</Card.Title>
-                        <Card.Text>UI designer</Card.Text>
-                    </Card.Body>
-                </Card>
-
-                <Card className='text-center' style={{ width: '15rem', height: '17rem' }}>
-                    <Card.Img variant="top" src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
-                    <Card.Body>
-                        <Card.Title>rushikesh </Card.Title>
-                        <Card.Text>UI designer</Card.Text>
-                    </Card.Body>
-                </Card>
-
-                <Card className='text-center' style={{ width: '15rem', height: '17rem' }}>
-                    <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" />
-                    <Card.Body>
-                        <Card.Title>atharva</Card.Title>
-                        <Card.Text>UI designer</Card.Text>
-                    </Card.Body>
-                </Card>
+            <div className={`${styles.second}`}>{expert_details.map((details, index) => {
+                return (
+                    <Card className='text-center' style={{ width: '15rem', height: '17rem' }} key={index}>
+                        <Card.Img className={`${styles.expert_image}`} src={details.image_url} />
+                        <Card.Body className={`${styles.expert_detail}`}>
+                            <Card.Title>{details.person_name}</Card.Title>
+                            <Card.Text>{details.position}</Card.Text>
+                        </Card.Body>
+                    </Card>
+                )
+            })}
             </div>
         </div>
     )

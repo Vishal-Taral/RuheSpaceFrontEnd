@@ -1,5 +1,10 @@
 .Testimonials {
   width: 100%;
+  background-image: radial-gradient(rgb(171, 210, 210) 10%, transparent 15%);
+  background-size: 10px 10px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+  padding: 3rem 4rem 0.5rem 4rem;
 }
 .Testimonials .line {
   height: 3px;
@@ -20,13 +25,25 @@
   align-items: center;
 }
 .Testimonials .outer_div .inner_div .small_div {
-  content: "";
   width: 100px;
   height: 100px;
   background-color: aquamarine;
+  position: relative;
+  margin-left: 5px;
+}
+.Testimonials .outer_div .inner_div .small_div::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  left: -4px;
+  top: -4px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  height: 50%;
 }
 .Testimonials .outer_div .inner_div .info {
   padding: 1rem;
+  background-color: white;
   width: 95%;
   margin: 1rem 0;
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);

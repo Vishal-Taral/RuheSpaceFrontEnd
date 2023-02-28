@@ -7,6 +7,20 @@ import { faLessThan } from '@fortawesome/free-solid-svg-icons';
 import { faGreaterThan } from '@fortawesome/free-solid-svg-icons';
 
 const LatestProject = () => {
+    const Project_card_details = [
+        {
+            image_url: "https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=",
+        },
+        {
+            image_url: "https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=",
+        },
+        {
+            image_url: "https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=",
+        },
+        {
+            image_url: "https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=",
+        },
+    ]
     return (
         <div className={`${styles.main1} container `}>
             <div>
@@ -27,30 +41,15 @@ const LatestProject = () => {
                 </div>
             </div>
 
-            <div className={`${styles.cards} mt-3`}>
-                <Card className={`${styles.actual_card}`} border="dark" >
-                    <Card.Body>
-                        <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
-                    </Card.Body>
-                </Card>
-
-                <Card border="dark" className={`${styles.actual_card}`}>
-                    <Card.Body>
-                        <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
-                    </Card.Body>
-                </Card>
-
-                <Card border="dark" className={`${styles.actual_card}`}>
-                    <Card.Body>
-                        <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
-                    </Card.Body>
-                </Card>
-
-                <Card border="dark" className={`${styles.actual_card}`}>
-                    <Card.Body>
-                        <Card.Img src="https://media.istockphoto.com/id/1392990621/photo/smart-handsome-positive-indian-or-arabian-guy-with-glasses-in-casual-wear-student-or.jpg?b=1&s=170667a&w=0&k=20&c=kYBQv7SKom27u83XwPbuCUkcmklb8TVTnZoSTuC5Rjo=" width="100%" height="100%" />
-                    </Card.Body>
-                </Card>
+            <div className={`${styles.cards} mt-3`}>{Project_card_details.map((details) => {
+                return (
+                    <Card className={`${styles.actual_card}`} border="dark" >
+                        <Card.Body>
+                            <Card.Img src={details.image_url} width="100%" height="100%" />
+                        </Card.Body>
+                    </Card>
+                )
+            })}
             </div>
 
             <div className={`${styles.left_right_icon}`}>

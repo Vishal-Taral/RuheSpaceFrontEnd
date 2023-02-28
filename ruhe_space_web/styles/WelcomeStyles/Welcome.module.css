@@ -54,9 +54,9 @@
 .Welcome .main1 .mainHomeImage .HomeImage1::before {
   position: absolute;
   content: "";
-  height: 78%;
+  height: 71%;
   width: 100%;
-  bottom: 8%;
+  bottom: 15%;
   z-index: -1;
   border: 20px solid rgb(123, 205, 205);
   left: -15%;
