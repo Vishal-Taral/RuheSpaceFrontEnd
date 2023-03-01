@@ -1,0 +1,12 @@
+.our_services {
+  background-color: black;
+  color: white;
+}
+.our_services .compo_name {
+  text-transform: uppercase;
+}
+.our_services .line {
+  height: 3px;
+  width: 50px;
+  background-color: white;
+}/*# sourceMappingURL=OurServices.module.css.map */

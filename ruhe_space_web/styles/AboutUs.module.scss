@@ -1,0 +1,77 @@
+.main1 {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    padding: 7rem 4rem;
+
+    .inner_div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .one {
+            width: 40%;
+
+            .carousel_div {
+                position: relative;
+                width: 75%;
+                height: 88%;
+                background-color: yellow;
+                margin: 40px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    border: 10px solid black;
+                    left: -15%;
+                    bottom: -9%;
+                }
+            }
+        }
+
+        .two {
+            width: 50%;
+            // background-color: black;
+            color: black;
+
+            .containt {
+                width: 100%;
+
+                .heading {
+                    font-weight: 100;
+                    font-size: 30px;
+                    font-family: sans-serif;
+                    line-height: 36px;
+                }
+
+                .quotes {
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 46px;
+                }
+
+                .uppercase_text {
+                    font-weight: 600;
+                    font-size: 15px;
+                    text-transform: uppercase;
+
+                }
+
+                .lowercase_text {
+                    text-transform: lowercase;
+                }
+
+            }
+
+            .read_more {
+                background-color: black;
+                color: whitesmoke;
+                letter-spacing: 2px;
+                font-size: 12px;
+                padding: 0.5rem 2rem;
+            }
+        }
+    }
+}

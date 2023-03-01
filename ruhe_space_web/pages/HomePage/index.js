@@ -16,7 +16,7 @@ const HomePage = () => {
             <WelCome />
             <LatestProject />
             <WhoWeAre />
-            <OurExperts />
+            <OurExperts showExperts={true} />
             <LatestBlog />
             <SomeFacts />
             <Testimonials />

@@ -23,9 +23,10 @@ const Header = () => {
                     <Nav.Link className={styles.Navlinks} onClick={() => Router.push('/HomePage')}>HOME</Nav.Link>
                     <Nav.Link className={styles.Navlinks} onClick={() => Router.push('/HowItWorks')}>HOW IT WORKS</Nav.Link>
                     <Nav.Link className={styles.Navlinks} onClick={() => Router.push('/About')}>ABOUT</Nav.Link>
-                    <Nav.Link className={styles.Navlinks} >WORKS</Nav.Link>
-                    <Nav.Link className={styles.Navlinks} >POST DETAIL</Nav.Link>
-                    <Nav.Link className={styles.Navlinks} >SHORTCODES</Nav.Link>
+                    <Nav.Link className={styles.Navlinks} onClick={() => Router.push('/Services')}>SERVICES</Nav.Link>
+                    <Nav.Link className={styles.Navlinks} onClick={() => Router.push('/Projects')}>PROJECT</Nav.Link>
+                    <Nav.Link className={styles.Navlinks} onClick={() => Router.push('/Blog')}>BLOG</Nav.Link>
+                    <Nav.Link className={styles.Navlinks} onClick={() => Router.push('/Contact_Us')}>CONTACT US</Nav.Link>
                     <Nav.Link className={styles.Navlinks} ><FontAwesomeIcon icon={faSearch} width="12px" height="12px" /></Nav.Link>
                 </Nav>
             </div>

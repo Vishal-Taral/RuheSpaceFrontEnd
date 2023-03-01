@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faLinkedinIn, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faRss } from '@fortawesome/free-solid-svg-icons';
 
-const OurExperts = () => {
+const OurExperts = ({ showExperts }) => {
     const brands_icon = [faFacebookF, faTwitter, faLinkedinIn, faYoutube, faInstagram, faRss];
     const expert_details = [
         {
@@ -47,13 +47,15 @@ const OurExperts = () => {
                     })}
                     </div>
                 </div>
-
-                <div className={`${styles.mainInfo}`}>
-                    <div className={`${styles.inner_div_Of_MainInfo}`} >
-                        <h1 className={`${styles.fent_heading}`} >EXPERTS</h1>
-                        <h4>TEAM MEMBERS</h4>
+                {showExperts ? (
+                    <div className={`${styles.mainInfo}`}>
+                        <div className={`${styles.inner_div_Of_MainInfo}`} >
+                            <h1 className={`${styles.fent_heading}`} >EXPERTS</h1>
+                            <h4>TEAM MEMBERS</h4>
+                        </div>
                     </div>
-                </div>
+                ) : <></>}
+
             </div>
 
             <div className={`${styles.second}`}>{expert_details.map((details, index) => {
