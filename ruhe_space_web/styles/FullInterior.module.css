@@ -1,5 +1,43 @@
+.full_interior {
+  padding: 0 3rem 0 3rem;
+}
+.full_interior .inner_div1 {
+  display: flex;
+}
+.full_interior .inner_div2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .full_interior .inner_div {
   border: 1.5px solid black;
   border-radius: 10px;
-  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.full_interior .inner_div .left {
+  width: 60%;
+  padding: 1rem 2rem 1rem 2rem;
+}
+.full_interior .inner_div .left .heading {
+  font-weight: 700;
+}
+.full_interior .inner_div .left .full_interior_detail {
+  font-size: 14px;
+  font-weight: 500;
+}
+.full_interior .inner_div .left .action_icon {
+  text-align: center;
+}
+.full_interior .inner_div .left .action_icon .down_icon {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+.full_interior .inner_div .right {
+  width: 40%;
+}
+.full_interior .inner_div .right .left_image {
+  height: 400px;
+  width: 100%;
 }/*# sourceMappingURL=FullInterior.module.css.map */

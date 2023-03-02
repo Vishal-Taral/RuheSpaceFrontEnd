@@ -1,0 +1,26 @@
+@mixin box_bottom_shadow {
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+@mixin box_top_shadow {}
+
+.designs {
+    padding: 1rem 3rem 0 3rem;
+
+    .inner_div {
+        // display: flex;
+        // justify-content: space-evenly;
+        // flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        // column-gap: 0.5rem;
+
+
+        .design_card {
+            margin-top: 2rem;
+            @include box_bottom_shadow()
+        }
+    }
+}
