@@ -3,10 +3,71 @@
     justify-content: space-between;
     background-color: rgb(239, 247, 247);
 
-
-    .expert_team {
+    .expertBg1 {
         background-color: black;
         color: white;
+    }
+
+    .expertBg2 {
+        background-color: transparent;
+        color: black;
+
+    }
+
+    .icon1 {
+        width: 35px;
+        height: 35px;
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.2rem;
+
+        &:hover {
+            border: 1px solid rgb(70, 61, 61);
+            transition: 1s;
+
+            .brand_icon1 {
+                color: rgb(70, 61, 61);
+                transition: 1s;
+
+            }
+        }
+    }
+
+    .icon2 {
+        width: 35px;
+        height: 35px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.2rem;
+
+        &:hover {
+            background-color: black;
+            color: white;
+
+            .brand_icon2 {
+                color: white;
+            }
+        }
+    }
+
+    .brand_icon1 {
+        width: 20px;
+        height: 20px;
+        color: white;
+    }
+
+    .brand_icon2 {
+        width: 20px;
+        height: 20px;
+        color: black;
+
+    }
+
+    .expert_team {
         padding: 4rem 1rem 1rem 5rem;
 
         .team_pic {
@@ -18,23 +79,7 @@
             color: white;
             display: flex;
             justify-content: center;
-
-            .outer_of_icon {
-                width: 35px;
-                height: 35px;
-                border: 1px solid white;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 0.2rem;
-
-                .brand_icon {
-                    width: 20px;
-                    height: 20px;
-                    color: white;
-
-                }
-            }
+            cursor: pointer;
 
         }
 

@@ -1,0 +1,50 @@
+.our_story {
+  background-color: aliceblue;
+}
+.our_story .inner .one .compo_name {
+  text-transform: uppercase;
+}
+.our_story .inner .one .line {
+  height: 3px;
+  width: 50px;
+  background-color: black;
+}
+.our_story .inner .two .park_boathouse_image {
+  position: relative;
+  width: 49%;
+  height: 300px;
+  background-color: aqua;
+}
+.our_story .inner .two .park_boathouse_image .park_boathouse_text {
+  position: absolute;
+  width: 105%;
+  height: 200px;
+  background-color: black;
+  padding: 1rem 2rem 2rem 1rem;
+  color: white;
+  left: 95%;
+  top: 17%;
+}
+.our_story .inner .two .park_boathouse_image .park_boathouse_text .story_description {
+  font-size: 14px;
+}
+.our_story .inner .two .park_boathouse_image1 {
+  position: relative;
+  width: 49%;
+  height: 300px;
+  background-color: aqua;
+  left: 49%;
+}
+.our_story .inner .two .park_boathouse_image1 .park_boathouse_text1 {
+  position: absolute;
+  width: 105%;
+  height: 200px;
+  background-color: black;
+  padding: 1rem 2rem 2rem 1rem;
+  color: white;
+  left: -100%;
+  top: 17%;
+}
+.our_story .inner .two .park_boathouse_image1 .park_boathouse_text1 .story_description {
+  font-size: 14px;
+}/*# sourceMappingURL=OurStory.module.css.map */

@@ -1,0 +1,67 @@
+@mixin boathouse_text {
+    position: absolute;
+    width: 105%;
+    height: 200px;
+    background-color: black;
+    padding: 1rem 2rem 2rem 1rem;
+    color: white;
+}
+
+@mixin boathouse_image1 {
+    position: relative;
+    width: 49%;
+    height: 300px;
+    background-color: aqua;
+}
+
+$fontSize : 14px;
+
+.our_story {
+    background-color: aliceblue;
+
+    .inner {
+        .one {
+            .compo_name {
+                text-transform: uppercase;
+            }
+
+            .line {
+                height: 3px;
+                width: 50px;
+                background-color: black;
+            }
+        }
+
+        .two {
+            .park_boathouse_image {
+                @include boathouse_image1;
+
+                .park_boathouse_text {
+                    @include boathouse_text;
+                    left: 95%;
+                    top: 17%;
+
+                    .story_description {
+                        font-size: $fontSize;
+
+                    }
+                }
+            }
+
+            .park_boathouse_image1 {
+                @include boathouse_image1;
+                left: 49%;
+
+                .park_boathouse_text1 {
+                    @include boathouse_text;
+                    left: -100%;
+                    top: 17%;
+
+                    .story_description {
+                        font-size: $fontSize;
+                    }
+                }
+            }
+        }
+    }
+}

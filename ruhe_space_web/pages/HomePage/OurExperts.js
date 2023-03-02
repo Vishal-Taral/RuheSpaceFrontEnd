@@ -31,7 +31,7 @@ const OurExperts = ({ showExperts }) => {
     ]
     return (
         <div className={`${styles.our_experts}`} >
-            <div className={`${styles.expert_team} col-6`} >
+            <div className={`${styles.expert_team} col-6 ${showExperts ? styles.expertBg1 : styles.expertBg2}`} >
                 <h1 >OUR EXPERTS</h1>
                 <div className='mt-5'>
                     <img className={`${styles.team_pic}`} src="https://media.istockphoto.com/photos/successful-business-team-smiling-teamwork-corporate-office-colleague-picture-id1188452509?b=1&k=20&m=1188452509&s=612x612&w=0&h=pB6BDGGcdFiickl5TD_XIyQsOyCtKnRDoq7kACyYg0A=" alt="team" />
@@ -40,9 +40,9 @@ const OurExperts = ({ showExperts }) => {
                 <div className='text-center mt-3'>
                     <h2>ROBERT WILLSON</h2>
                     <h3>Co-manager associated</h3>
-                    <div className={styles.icon}>{brands_icon.map((icons) => {
+                    <div className={`${styles.icon}`}>{brands_icon.map((icons, index) => {
                         return (
-                            <div className={`${styles.outer_of_icon}`}><FontAwesomeIcon className={styles.brand_icon} icon={icons} /></div>
+                            <div className={`${styles.outer_of_icon} ${showExperts ? styles.icon1 : styles.icon2}`} key={index}><FontAwesomeIcon className={`${styles.brand_icon} ${showExperts ? styles.brand_icon1 : styles.brand_icon2} `} icon={icons} /></div>
                         )
                     })}
                     </div>
@@ -60,7 +60,7 @@ const OurExperts = ({ showExperts }) => {
 
             <div className={`${styles.second}`}>{expert_details.map((details, index) => {
                 return (
-                    <Card className='text-center' style={{ width: '15rem', height: '17rem' }} key={index}>
+                    <Card className='text-center' style={{ width: '15rem', height: '17rem' }} key={index} >
                         <Card.Img className={`${styles.expert_image}`} src={details.image_url} />
                         <Card.Body className={`${styles.expert_detail}`}>
                             <Card.Title>{details.person_name}</Card.Title>

@@ -3,9 +3,58 @@
   justify-content: space-between;
   background-color: rgb(239, 247, 247);
 }
-.our_experts .expert_team {
+.our_experts .expertBg1 {
   background-color: black;
   color: white;
+}
+.our_experts .expertBg2 {
+  background-color: transparent;
+  color: black;
+}
+.our_experts .icon1 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+}
+.our_experts .icon1:hover {
+  border: 1px solid rgb(70, 61, 61);
+  transition: 1s;
+}
+.our_experts .icon1:hover .brand_icon1 {
+  color: rgb(70, 61, 61);
+  transition: 1s;
+}
+.our_experts .icon2 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+}
+.our_experts .icon2:hover {
+  background-color: black;
+  color: white;
+}
+.our_experts .icon2:hover .brand_icon2 {
+  color: white;
+}
+.our_experts .brand_icon1 {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.our_experts .brand_icon2 {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+.our_experts .expert_team {
   padding: 4rem 1rem 1rem 5rem;
 }
 .our_experts .expert_team .team_pic {
@@ -16,20 +65,7 @@
   color: white;
   display: flex;
   justify-content: center;
-}
-.our_experts .expert_team .icon .outer_of_icon {
-  width: 35px;
-  height: 35px;
-  border: 1px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0.2rem;
-}
-.our_experts .expert_team .icon .outer_of_icon .brand_icon {
-  width: 20px;
-  height: 20px;
-  color: white;
+  cursor: pointer;
 }
 .our_experts .expert_team .mainInfo .inner_div_Of_MainInfo {
   margin-right: 2rem;
