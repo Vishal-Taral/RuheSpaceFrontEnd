@@ -20,8 +20,11 @@
     }
 
     .cards {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 16rem));
+        grid-gap: 0.5rem;
+        justify-items: center;
+        align-items: center;
 
         .actual_card {
             width: 16rem;
@@ -32,6 +35,7 @@
         .actual_card:hover {
             background-color: white;
         }
+
     }
 
     .left_right_icon {
@@ -71,6 +75,31 @@
             .fent_heading {
                 font-size: 80px;
                 color: aqua;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main1 {
+        .latestProject {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .mainInfo {
+            border-right: 10px solid black;
+            margin-right: -2rem;
+
+            .inner_div_Of_MainInfo {
+                margin-right: 1rem;
+                text-align: right;
+
+                .fent_heading {
+                    font-size: 3rem;
+                    color: aqua;
+                    margin-bottom: 0.3rem;
+                }
             }
         }
     }

@@ -1,18 +1,41 @@
-.Header {
-  padding: 1.5rem 5rem;
-  display: flex;
-  justify-content: space-between;
+/****************************************************/
+.header {
   background-color: white;
-  align-items: center;
 }
-.Header .links .Navlinks {
+
+.NavbarItemList {
+  display: flex;
+  justify-content: flex-end;
+}
+.NavbarItemList .navlist {
+  cursor: pointer;
   color: black;
-  font-size: 12px;
+  font-size: 13px;
   font-family: sans-serif;
   letter-spacing: 2px;
   padding: 0rem 0.5rem;
   font-weight: 450;
 }
-.Header .links .Navlinks:hover {
+.NavbarItemList .navlist:hover {
   color: aquamarine;
+}
+
+@media only screen and (max-width: 1000px) {
+  .NavbarItemList {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .NavbarItemList .navlist {
+    line-height: 2rem;
+    cursor: pointer;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding: 0rem 0.5rem;
+    font-weight: 450;
+  }
+  .NavbarItemList .navlist:hover {
+    color: aquamarine;
+  }
 }/*# sourceMappingURL=Header.module.css.map */

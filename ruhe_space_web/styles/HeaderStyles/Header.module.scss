@@ -1,56 +1,78 @@
-.Header {
-    padding: 1.5rem 5rem;
-    display: flex;
-    justify-content: space-between;
+// .Header {
+//     padding: 1.5rem 5rem;
+//     display: flex;
+//     justify-content: space-between;
+//     background-color: white;
+//     align-items: center;
+
+//     .links {
+//         // width: 70%;
+//         // margin-left: 2%;
+
+//         .Navlinks {
+//             color: black;
+//             font-size: 12px;
+//             font-family: sans-serif;
+//             letter-spacing: 2px;
+//             padding: 0rem 0.5rem;
+//             font-weight: 450;
+//         }
+
+//         .Navlinks:hover {
+//             color: aquamarine;
+//         }
+//     }
+
+
+
+// }
+/****************************************************/
+.header {
     background-color: white;
-    align-items: center;
+}
 
-    .links {
-        // width: 70%;
-        // margin-left: 2%;
+.NavbarItemList {
+    display: flex;
+    justify-content: flex-end;
+    // padding: 1rem 2rem 1rem 4rem;
 
-        .Navlinks {
+    .navlist {
+        cursor: pointer;
+        color: black;
+        font-size: 13px;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        padding: 0rem 0.5rem;
+        font-weight: 450;
+
+        &:hover {
+            color: aquamarine;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .NavbarItemList {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .navlist {
+            line-height: 2rem;
+            cursor: pointer;
             color: black;
-            font-size: 12px;
+            font-size: 13px;
             font-family: sans-serif;
             letter-spacing: 2px;
             padding: 0rem 0.5rem;
             font-weight: 450;
-        }
 
-        .Navlinks:hover {
-            color: aquamarine;
+            &:hover {
+                color: aquamarine;
+            }
         }
     }
 
-
-
 }
-
-// .header {
-//     background-color: white;
-//     padding: 1rem 2rem;
-
-//     .NavbarItemList {
-//         display: flex;
-//         justify-content: flex-end;
-
-
-//         .navlist {
-//             cursor: pointer;
-//             color: black;
-//         }
-//     }
-// }
-
-
-// @media only screen and (max-width: 1000px) {
-//     .header {
-//         .NavbarItemList {
-//             display: flex;
-//             justify-content: left;
-//             flex-direction: column;
-//         }
-//     }
-
-// }

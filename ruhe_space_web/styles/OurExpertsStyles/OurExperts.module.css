@@ -96,4 +96,25 @@
   border-bottom: 4px solid black;
   left: -1%;
   bottom: -1%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .our_experts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .our_experts .expert_team {
+    width: 100%;
+    padding: 0 1rem 1rem 1rem;
+  }
+  .our_experts .second {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-gap: 4rem;
+    justify-items: center;
+    align-items: center;
+    padding: 4rem 2rem 1rem 2rem;
+  }
 }/*# sourceMappingURL=OurExperts.module.css.map */

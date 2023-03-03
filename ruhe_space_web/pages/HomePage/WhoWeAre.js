@@ -10,13 +10,13 @@ const WhoWeAre = () => {
         <div className={`${styles.Welcome}`}>
             <div>
                 <div className={`${styles.main1} mt-3 mb-3 `} >
-                    <div className={`${styles.containt}`}>
+                    <div className={`${styles.containt} text-center`}>
                         <h3 className={styles.heading} >Who We Are</h3>
                         <h2 className={`${styles.quotes} mt-2`}> WE ARE CREATIVE ARCHITECTURE STUDIO</h2>
                         <p className={`${styles.paragraph} mt-3`}>DUMMY TEXT IS ALSO USED TO DEMONSTRATE THE APPEARANCE OF DIFFERENT TYPEFACES AND LAYOUTS, AND IN GENERAL
                             typefaces and layouts, and in appearance of different general the content of dummy text is nonsensical.typefaces and layouts, different general the content of dummy text is nonsensical.</p>
                     </div>
-                    <div className={styles.mainHomeImage}>
+                    <div className={`${styles.mainHomeImage} mb-4`}>
                         <div className={styles.HomeImage1} >
                             {/* <img src='https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?cs=srgb&dl=pexels-vecislavas-popa-1643383.jpg&fm=jpg' alt="HomeImage" className={styles.actualImage} /> */}
                             <Carousel>

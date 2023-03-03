@@ -79,19 +79,21 @@
 
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
     .HomeImage1 {
         // margin: 2%;
         margin-left: 10%;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .Welcome {
+        padding: 0;
+
         .main1 {
             display: flex;
             background-color: rgb(237, 241, 241);
-            // padding: 3rem;
+            padding: 3rem;
             flex-direction: column;
 
             .containt {
@@ -118,7 +120,7 @@
                 // align-items: center;
 
                 .HomeImage1 {
-                    width: 70%;
+                    width: 100%;
                     height: auto;
                     margin-top: 4%;
                     display: flex;
@@ -127,21 +129,31 @@
 
                     .actualImage {
                         position: relative;
-                        width: 90%;
-                        height: 70%;
-                        left: 10%;
+                        width: 100%;
+                        height: 80%;
                     }
 
                     &::before {
-                        position: absolute;
-                        content: "";
-                        height: 80%;
-                        width: 90%;
-                        bottom: -5%;
-                        left: 2%;
-                        z-index: -1;
-                        border: 20px solid rgb(123, 205, 205);
+                        display: none;
                     }
+                }
+            }
+
+
+        }
+
+        .mainInfo {
+            border-right: 10px solid black;
+            margin-right: -2rem;
+
+            .inner_div_Of_MainInfo {
+                margin-right: 1rem;
+                text-align: left;
+
+                .fent_heading {
+                    font-size: 3rem;
+                    color: aqua;
+                    margin-bottom: 0.3rem;
                 }
             }
         }
