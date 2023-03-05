@@ -20,11 +20,13 @@
     }
 
     .cards {
+        width: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 16rem));
-        grid-gap: 0.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        grid-gap: 4rem;
         justify-items: center;
         align-items: center;
+        padding: 0 2rem 1rem 2rem;
 
         .actual_card {
             width: 16rem;
