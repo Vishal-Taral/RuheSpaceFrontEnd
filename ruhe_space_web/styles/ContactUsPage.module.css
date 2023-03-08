@@ -1,0 +1,5 @@
+.down_div1 {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(37rem, 37rem));
+}/*# sourceMappingURL=ContactUsPage.module.css.map */

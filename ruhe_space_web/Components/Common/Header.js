@@ -2,17 +2,14 @@ import React from 'react';
 import Image from 'next/image';
 import Logo from '../../public/Images/logoImage.png';
 import styles from '../../styles/HeaderStyles/Header.module.scss';
-import Nav from 'react-bootstrap/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useRouter } from 'next/router';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-
-
 const Header = () => {
     const router = useRouter();
     const forNavItems = {
-        icon: "",
+        icon: "RUHE SPACE ",
         navItems: [
             {
                 key: "HomePage",
@@ -50,7 +47,8 @@ const Header = () => {
     return (
         <nav className={`${styles.header} navbar navbar-expand-lg  p-4 fixed-top`}>
             <div className={` container-fluid`} >
-                <Image src={Logo} alt="logo" width="100%" height="100%" />
+                {/* <Image src={Logo} alt="logo" width="100%" height="100%" /> */}
+                <h3>{forNavItems.icon}</h3>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

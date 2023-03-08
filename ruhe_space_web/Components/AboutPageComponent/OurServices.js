@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from '../../styles/OurServices.module.scss';
 import Image from 'next/image';
-import { IMAGES_MANIFEST } from 'next/dist/shared/lib/constants';
 
 const OurServices = () => {
     const services_info = {
@@ -54,7 +53,7 @@ const OurServices = () => {
                     })}</div>
 
                     <div className={`${styles.middle} col-4 ml-5`}>
-                        <img src={services_info.middle_image_url} alt="picture" width="80%" height="100%" />
+                        <img className={`${styles.actual_image}`} src={services_info.middle_image_url} alt="picture" />
                     </div>
 
                     <div className={`${styles.left} col-4`}>{services_info.right_sided_services.map((elem, index) => {

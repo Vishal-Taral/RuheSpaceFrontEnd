@@ -34,7 +34,6 @@ const AboutUs = () => {
                                     height="40%"
 
                                 />
-
                             </Carousel.Item>
                         </Carousel>
 

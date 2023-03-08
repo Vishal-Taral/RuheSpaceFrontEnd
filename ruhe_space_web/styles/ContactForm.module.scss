@@ -1,0 +1,67 @@
+$base-color: darkgoldenrod;
+$base-color_on_hover: rgb(176, 141, 52);
+
+
+@mixin forGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+@mixin inputBoxes {
+    border-radius: 7px;
+    border: none;
+    -webkit-box-shadow: 1px 1px 14px 0px rgba(0, 255, 255, 1);
+    -moz-box-shadow: 1px 1px 14px 0px rgba(0, 255, 255, 1);
+    box-shadow: 1px 1px 14px 0px rgba(0, 255, 255, 1);
+}
+
+.contact_form {
+    .top_div {
+
+        .title {
+            color: $base-color;
+        }
+
+        .instruct {
+            font-weight: 700;
+        }
+
+        .warning {
+            font-weight: 400;
+        }
+    }
+
+    .down_div {
+        .contact_form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+            grid-gap: 1rem;
+
+            .inputs_for_contact {
+                @include inputBoxes;
+                padding-left: 3%;
+                height: 40px;
+            }
+
+        }
+
+        .inputs_for_massage {
+            @include inputBoxes;
+            padding-left: 1%;
+            width: 100%;
+            margin-top: 3%;
+        }
+
+        .send_btn {
+            @include inputBoxes;
+            background-color: $base-color;
+            margin-top: 2%;
+            padding: 0.5rem 1rem;
+            color: white;
+
+            &:hover {
+                padding: 0.4rem 0.9rem;
+            }
+        }
+    }
+}

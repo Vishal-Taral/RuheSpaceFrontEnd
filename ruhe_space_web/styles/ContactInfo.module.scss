@@ -1,0 +1,65 @@
+$base-color: darkgoldenrod;
+
+@mixin forGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.Cont_info {
+
+    .top_div {
+
+        .title {
+            color: $base-color;
+        }
+
+        .instruct {
+            font-weight: 700;
+        }
+
+        .warning {
+            font-weight: 400;
+        }
+    }
+
+    .down_div {
+        .contact_info {
+            display: flex;
+
+            .icon {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                padding: 2px;
+                border: 1px dashed black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .outer_of_icon {
+                    width: 60px;
+                    height: 60px;
+                    background-color: $base-color;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+
+                    .actual_icon {
+                        width: 30px;
+                    }
+                }
+
+            }
+
+            .information {
+                margin-left: 1rem;
+
+                .actual_info {
+                    line-height: 0.5rem;
+                }
+            }
+        }
+    }
+
+}

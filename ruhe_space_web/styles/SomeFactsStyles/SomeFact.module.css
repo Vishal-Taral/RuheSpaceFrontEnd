@@ -33,6 +33,17 @@
 .some_facts .outer .outer_right .one .numbers {
   margin-left: 5rem;
 }
+.some_facts .outer .outer_right .one .numbers .count::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 10px;
+  border-top: 5px solid white;
+  bottom: 11rem;
+}
+.some_facts .outer .outer_right .one .numbers .client_type {
+  margin-top: 3rem;
+}
 .some_facts::before {
   position: absolute;
   content: "";

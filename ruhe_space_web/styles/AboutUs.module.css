@@ -59,4 +59,20 @@
   letter-spacing: 2px;
   font-size: 12px;
   padding: 0.5rem 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main1 .inner_div {
+    display: flex;
+    flex-direction: column;
+  }
+  .main1 .inner_div .one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main1 .inner_div .two {
+    width: 100%;
+  }
 }/*# sourceMappingURL=AboutUs.module.css.map */

@@ -47,4 +47,11 @@
 }
 .our_story .inner .two .park_boathouse_image1 .park_boathouse_text1 .story_description {
   font-size: 14px;
+}
+
+@media only screen and (max-width: 100px) {
+  .two .park_boathouse_image {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=OurStory.module.css.map */

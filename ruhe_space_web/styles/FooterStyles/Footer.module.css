@@ -1,15 +1,21 @@
 .footer {
   padding: 5rem 0rem;
-  display: flex;
-  justify-content: space-between;
-}
-.footer .middleText {
-  position: relative;
-  left: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 .footer .footer_liks {
   font-size: 15px;
 }
 .footer .footer_liks .links {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+  }
 }/*# sourceMappingURL=Footer.module.css.map */

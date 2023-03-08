@@ -53,13 +53,15 @@
   color: white;
 }
 .latest_blog .main1 .outer_right .mainInfo {
-  border-right: 10px solid black;
+  border-left: 10px solid black;
+  margin-right: -2rem;
 }
 .latest_blog .main1 .outer_right .mainInfo .inner_div_Of_MainInfo {
-  margin-right: 2rem;
-  text-align: right;
+  margin-left: 1rem;
+  text-align: left;
 }
 .latest_blog .main1 .outer_right .mainInfo .inner_div_Of_MainInfo .fent_heading {
-  font-size: 80px;
+  font-size: 3rem;
   color: aqua;
+  margin-bottom: 0.3rem;
 }/*# sourceMappingURL=LatestBlog.module.css.map */

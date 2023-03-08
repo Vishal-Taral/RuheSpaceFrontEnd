@@ -1,0 +1,41 @@
+.contact_form .top_div .title {
+  color: darkgoldenrod;
+}
+.contact_form .top_div .instruct {
+  font-weight: 700;
+}
+.contact_form .top_div .warning {
+  font-weight: 400;
+}
+.contact_form .down_div .contact_form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-gap: 1rem;
+}
+.contact_form .down_div .contact_form .inputs_for_contact {
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 14px 0px rgb(0, 255, 255);
+  padding-left: 3%;
+  height: 40px;
+}
+.contact_form .down_div .inputs_for_massage {
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 14px 0px rgb(0, 255, 255);
+  padding-left: 1%;
+  width: 100%;
+  margin-top: 3%;
+}
+.contact_form .down_div .send_btn {
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 14px 0px rgb(0, 255, 255);
+  background-color: darkgoldenrod;
+  margin-top: 2%;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.contact_form .down_div .send_btn:hover {
+  padding: 0.4rem 0.9rem;
+}/*# sourceMappingURL=ContactForm.module.css.map */

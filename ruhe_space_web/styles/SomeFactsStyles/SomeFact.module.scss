@@ -34,6 +34,22 @@
 
                 .numbers {
                     margin-left: 5rem;
+
+                    .count {
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 60px;
+                            height: 10px;
+                            border-top: 5px solid white;
+                            bottom: 11rem;
+                        }
+                    }
+
+                    .client_type {
+                        margin-top: 3rem;
+                    }
                 }
             }
         }

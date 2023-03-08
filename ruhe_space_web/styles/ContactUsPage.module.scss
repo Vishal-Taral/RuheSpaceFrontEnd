@@ -1,0 +1,8 @@
+.down_div1 {
+    padding: 2rem;
+    display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(37rem, 37rem));
+    grid-template-columns: repeat(auto-fit, minmax(37rem, 37rem));
+}
+
+@media only screen and (max-width : 1000px) {}

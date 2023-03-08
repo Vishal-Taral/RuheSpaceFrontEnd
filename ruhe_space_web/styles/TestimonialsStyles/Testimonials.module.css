@@ -18,7 +18,7 @@
   align-items: center;
 }
 .Testimonials .outer_div .inner_div {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,4 +58,34 @@
 .Testimonials .mainInfo .inner_div_Of_MainInfo .fent_heading {
   font-size: 80px;
   color: aqua;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Testimonials {
+    width: 100%;
+    background-image: radial-gradient(rgb(171, 210, 210) 10%, transparent 15%);
+    background-size: 10px 10px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    padding: 0 0 0 1rem;
+  }
+  .Testimonials .outer_div {
+    flex-direction: column;
+    width: 100%;
+  }
+  .Testimonials .outer_div .inner_div {
+    width: 100%;
+  }
+  .Testimonials .mainInfo {
+    border-right: 10px solid black;
+  }
+  .Testimonials .mainInfo .inner_div_Of_MainInfo {
+    margin-right: 1rem;
+    text-align: right;
+  }
+  .Testimonials .mainInfo .inner_div_Of_MainInfo .fent_heading {
+    font-size: 3rem;
+    color: aqua;
+    margin-bottom: 0.3rem;
+  }
 }/*# sourceMappingURL=Testimonials.module.css.map */

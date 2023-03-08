@@ -64,15 +64,17 @@
             }
 
             .mainInfo {
-                border-right: 10px solid black;
+                border-left: 10px solid black;
+                margin-right: -2rem;
 
                 .inner_div_Of_MainInfo {
-                    margin-right: 2rem;
-                    text-align: right;
+                    margin-left: 1rem;
+                    text-align: left;
 
                     .fent_heading {
-                        font-size: 80px;
+                        font-size: 3rem;
                         color: aqua;
+                        margin-bottom: 0.3rem;
                     }
                 }
             }

@@ -74,3 +74,23 @@
         }
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .main1 {
+        .inner_div {
+            display: flex;
+            flex-direction: column;
+
+            .one {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .two {
+                width: 100%;
+            }
+        }
+    }
+}

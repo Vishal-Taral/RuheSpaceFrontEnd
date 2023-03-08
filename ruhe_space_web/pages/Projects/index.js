@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Carousels from '../HomePage/Carousels';
 
 const Projects = () => {
     return (
-        <div>Projects</div>
+        <div>
+            <Carousels />
+        </div>
     )
 }
 
-export default Projects
+export default Projects;

@@ -7,17 +7,17 @@ import bannerImage from '../../public/Images/Banner.png';
 
 const SimplerImages = () => {
     return (
-        <div className={`${styles.simpler_images}`}>
+        <div >
             <div className='mt-5'>
-                <Image src={bannerImage} alt="bannerImage" width="100%" height={370} />
+                <Image src={bannerImage} alt="bannerImage" style={{ width: "100%", height: "50%" }} />
             </div>
 
             <div>
-                <Image src={Img01} alt="bannerImage" width="100%" height={500} priority />
+                <Image src={Img01} alt="bannerImage" width="100%" height={500} priority style={{ width: "100%", height: "50%" }} />
             </div>
 
             <div>
-                <Image src={Img02} alt="bannerImage" width="100%" height={500} priority />
+                <Image src={Img02} alt="bannerImage" width="100%" height={500} priority style={{ width: "100%", height: "50%" }} />
             </div>
         </div>
     )

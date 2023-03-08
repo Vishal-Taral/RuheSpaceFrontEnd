@@ -14,7 +14,7 @@ const Services = () => {
     return (
         <div>
             <div>
-                <Image src={bannerImage} alt="bannerImage" width="100%" height={370} />
+                <Image src={bannerImage} alt="bannerImage" style={{ width: "100%", height: "50%" }} />
             </div>
             <FullInterior full_interior={true} cardVisiblity={toggleCardVisibility} visibility={cardVisibility} />
             <Designs visibility={cardVisibility} />

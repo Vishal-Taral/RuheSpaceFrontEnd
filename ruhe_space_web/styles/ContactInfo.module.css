@@ -1,0 +1,40 @@
+.Cont_info .top_div .title {
+  color: darkgoldenrod;
+}
+.Cont_info .top_div .instruct {
+  font-weight: 700;
+}
+.Cont_info .top_div .warning {
+  font-weight: 400;
+}
+.Cont_info .down_div .contact_info {
+  display: flex;
+}
+.Cont_info .down_div .contact_info .icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cont_info .down_div .contact_info .icon .outer_of_icon {
+  width: 60px;
+  height: 60px;
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.Cont_info .down_div .contact_info .icon .outer_of_icon .actual_icon {
+  width: 30px;
+}
+.Cont_info .down_div .contact_info .information {
+  margin-left: 1rem;
+}
+.Cont_info .down_div .contact_info .information .actual_info {
+  line-height: 0.5rem;
+}/*# sourceMappingURL=ContactInfo.module.css.map */

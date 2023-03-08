@@ -14,16 +14,16 @@ const SomeFacts = () => {
                 <div className={`${styles.outer_right}`}>
                     <div className={`${styles.one}`}>
                         <div className={`${styles.numbers}`}>
-                            <h1>325</h1>
-                            <h5>Happy Client</h5>
+                            <h1 className={styles.count}>325</h1>
+                            <h5 className={styles.client_type}>Happy Client</h5>
                         </div>
                         <div className={`${styles.numbers}`}>
-                            <h1 >400</h1>
-                            <h5>Happy Client</h5>
+                            <h1 className={styles.count}>400</h1>
+                            <h5 className={styles.client_type}>Happy Client</h5>
                         </div>
-                        <div className={`${styles.numbers}`}>
-                            <h1>300</h1>
-                            <h5>Happy Client</h5>
+                        <div className={`${styles.numbers} `}>
+                            <h1 className={styles.count}>300</h1>
+                            <h5 className={styles.client_type}>Happy Client</h5>
                         </div>
                     </div>
                 </div>
