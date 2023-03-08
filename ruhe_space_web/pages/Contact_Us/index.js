@@ -8,11 +8,11 @@ const Contact = () => {
     return (
         <div>
             Contact Us
-            {/* <TopBanner />
+            <TopBanner />
             <div className={styles.down_div1}>
                 <ContactInfo className={styles.one} />
                 <ContactForm className={styles.two} />
-            </div> */}
+            </div>
         </div>
     )
 }
